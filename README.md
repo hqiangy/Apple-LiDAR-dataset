@@ -18,8 +18,8 @@ The full dataset (~40GB) is available for download from an external source due t
 
 | File Name         | Description                         | Download Link |
 |------------------|---------------------------------|---------------|
-| crack_001.ply    | Pavement crack sample 001       | [Download](#) |
-| crack_002.ply    | Pavement crack sample 002       | [Download](#) |
+| sysu001.ply    | Pavement crack sample 001       | [Download](#) |
+| sysu002.ply    | Pavement crack sample 002       | [Download](#) |
 | ...              | ...                             | ...           |
 | location_map.png | Point cloud collection locations | [Download](#) |
 | sample_data.zip  | Sample dataset for quick access | [Download](#) |
