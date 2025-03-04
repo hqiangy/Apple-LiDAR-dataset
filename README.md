@@ -24,6 +24,11 @@ The full dataset (~40GB) is available for download from an external source due t
 | location_map.png | Point cloud collection locations | [Download](#) |
 | sample_data.zip  | Sample dataset for quick access | [Download](#) |
 
+## 📍 采集位置图
+下图展示了不同点云数据的采集位置：
+
+![采集位置图](location_map.jpg)
+
 
 ## Usage Instructions
 - **Viewing**: You can use CloudCompare, MeshLab, or Open3D to visualize and analyze the point cloud data.
