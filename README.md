@@ -10,18 +10,16 @@ This dataset contains pavement crack point clouds collected using Apple LiDAR on
 - **Point Cloud Size**: Small  
 - **Coordinate System**: WGS84  
 - **File Format**: .ply  
-- **Each File Represents**: A single crack  
-- **Additional File**: Location map showing different point cloud collection positions  
+- **Each File Represents**: A single crack    
 
 ## Dataset Download
 The full dataset (~40GB) is available for download from an external source due to its large size.
 
 | File Name         | Description                         | Download Link |
 |------------------|---------------------------------|---------------|
-| sysu001.ply    | Pavement crack sample 001       | [Download](#) |
-| sysu002.ply    | Pavement crack sample 002       | [Download](#) |
+| sysu001.ply    | Pavement crack sample 001       | [Download](https://zenodo.org/records/14965713/files/sysy001.ply?download=1&preview=1) |
+| sysu002.ply    | Pavement crack sample 002       | [Download](https://zenodo.org/records/14965713/files/sysu002.ply?download=1&preview=1) |
 | ...              | ...                             | ...           |
-| location_map.png | Point cloud collection locations | [Download](#) |
 | sample_data.zip  | Sample dataset for quick access | [Download](#) |
 
 ## 📍 采集位置图
