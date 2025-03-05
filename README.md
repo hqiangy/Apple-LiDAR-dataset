@@ -10,7 +10,6 @@ This dataset contains pavement crack point clouds collected using Apple LiDAR on
 - **Point Cloud Size**: Small  
 - **File Format**: .ply  
 - **Each File Represents**: A single crack  
-- **Additional File**: Location map showing different point cloud collection positions  
 
 ## Crack Measurement Attributes
 - **Measurement Tool**: A vernier caliper with a resolution of **0.01mm** was used to measure crack width and depth.  
@@ -18,6 +17,11 @@ This dataset contains pavement crack point clouds collected using Apple LiDAR on
 - **Measurement Variability**: Due to different crack characteristics, some width measurements represent average values.  
 - **Weather Conditions**: Data was collected during **light rain**, and the point cloud may include water accumulation in cracks.  
 - **Measurement Consistency**: All measurements were conducted by the **same team** to ensure consistency.  
+
+## 📍 Crack Collection Locations
+The image below shows the collection locations of different point cloud samples:
+
+![Crack Collection Locations](location_map.jpg)
 
 ## Dataset Download
 The full dataset (~40GB) is available for download from an external source due to its large size.
