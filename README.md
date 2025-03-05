@@ -8,25 +8,35 @@ This dataset contains pavement crack point clouds collected using Apple LiDAR on
 - **Software**: SiteScape  
 - **Point Cloud Density**: Premium  
 - **Point Cloud Size**: Small  
-- **Coordinate System**: WGS84  
 - **File Format**: .ply  
-- **Each File Represents**: A single crack    
+- **Each File Represents**: A single crack  
+- **Additional File**: Location map showing different point cloud collection positions  
+
+## Crack Measurement Attributes
+- **Measurement Tool**: A vernier caliper with a resolution of **0.01mm** was used to measure crack width and depth.  
+- **Crack Type Annotation**: Crack types (**transverse, longitudinal, alligator, and block cracks**) were manually labeled based on visual inspection.  
+- **Measurement Variability**: Due to different crack characteristics, some width measurements represent average values.  
+- **Weather Conditions**: Data was collected during **light rain**, and the point cloud may include water accumulation in cracks.  
+- **Measurement Consistency**: All measurements were conducted by the **same team** to ensure consistency.  
 
 ## Dataset Download
 The full dataset (~40GB) is available for download from an external source due to its large size.
 
-| File Name         | Description                         | Download Link |
-|------------------|---------------------------------|---------------|
-| sysu001.ply    | Pavement crack sample 001       | [Download](https://zenodo.org/records/14965713/files/sysy001.ply?download=1&preview=1) |
-| sysu002.ply    | Pavement crack sample 002       | [Download](https://zenodo.org/records/14965713/files/sysu002.ply?download=1&preview=1) |
-| ...              | ...                             | ...           |
-| sample_data.zip  | Sample dataset for quick access | [Download](#) |
-
-## 📍 采集位置图
-下图展示了不同点云数据的采集位置：
-
-![采集位置图](location_map.jpg)
-
+| Crack ID  | Crack Type  | Crack Width    | Crack Length | Crack Depth       | Download Link  |
+|-----------|------------|---------------|--------------|-------------------|---------------|
+| sysu001   | Longitudinal | 4-14mm       | 5.91m       | 50-90mm          | [Download](https://zenodo.org/records/14965713/files/sysy001.ply?download=1&preview=1) |
+| sysu002   | Transverse  | 4.4mm        | 3.47m       | 10-50mm          | [Download](https://zenodo.org/records/14965713/files/sysu002.ply?download=1&preview=1) |
+| sysu003   | Transverse  | 4-14mm       | 3.5m        | 10-30mm          | [Download](#) |
+| sysu004   | Transverse  | 19-31mm      | 9m          | 6-20mm           | [Download](#) |
+| sysu005   | Transverse  | 5-7mm        | 11.14m      | 50-100mm & >100mm | [Download](#) |
+| sysu006   | Transverse  | 15-23mm      | 12.09m      | 15-35mm          | [Download](#) |
+| sysu007   | Transverse  | Avg. 30mm    | 11.61m      | 20-40mm          | [Download](#) |
+| sysu008   | Transverse  | 23-37mm      | 11.78m      | >10mm            | [Download](#) |
+| sysu009   | Transverse  | 17mm         | 11.86m      | 10-40mm          | [Download](#) |
+| sysu010   | Alligator   | Max 100mm    | 1.77m       | <17mm            | [Download](#) |
+| sysu011   | Longitudinal | 1.5-20mm    | 5m          | 3-14mm           | [Download](#) |
+| sysu012   | Longitudinal | >1mm        | 4.87m       | 10mm             | [Download](#) |
+| sysu013   | Transverse  | 3-14mm       | 12.11m      | Max 20mm         | [Download](#) |
 
 ## Usage Instructions
 - **Viewing**: You can use CloudCompare, MeshLab, or Open3D to visualize and analyze the point cloud data.
@@ -36,7 +46,6 @@ The full dataset (~40GB) is available for download from an external source due t
   pcd = o3d.io.read_point_cloud("crack_001.ply")
   o3d.visualization.draw_geometries([pcd])
   ```
-- **Coordinate System**: Data is aligned using WGS84 for accurate geolocation.
 
 ## Citation
 If you use this dataset in your research, please cite appropriately:
