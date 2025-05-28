@@ -4,7 +4,7 @@
 This dataset contains pavement crack point clouds collected using Apple LiDAR on an Iphone 16 Pro at Sun Yat-sen University, Zhuhai Campus. The dataset is intended for research on the potential application of Apple LiDAR in pavement crack detection.
 
 ## Data Collection Details
-- **Device**: Iphone 21 Pro  
+- **Device**: Iphone 16 Pro  
 - **Software**: SiteScape  
 - **Point Cloud Density**: Premium  
 - **Point Cloud Size**: Small  
