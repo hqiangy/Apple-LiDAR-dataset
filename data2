@@ -18,5 +18,4 @@ This dataset contains pavement crack point clouds collected using Apple LiDAR on
 - **Weather Conditions**: Data was collected during **light rain**, and the point cloud may include water accumulation in cracks.  
 - **Measurement Consistency**: All measurements were conducted by the **same team** to ensure consistency.  
 
-## 📍 Crack Collection Locations
-The image below shows the collection locations of different point cloud samples:
+
