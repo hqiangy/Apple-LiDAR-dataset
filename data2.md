@@ -1,0 +1,39 @@
+# Apple LiDAR Pavement Cracks Dataset
+
+## Overview
+This dataset contains pavement crack point clouds collected using Apple LiDAR on an Iphone 16 Pro at Sun Yat-sen University, Zhuhai Campus. The dataset is intended for research on the potential application of Apple LiDAR in pavement crack detection.
+
+## Data Collection Details
+- **Device**: Iphone 16 Pro  
+- **Software**: SiteScape  
+- **Point Cloud Density**: Premium  
+- **Point Cloud Size**: Small  
+- **File Format**: .ply  
+- **Each File Represents**: A single crack  
+
+## Crack Measurement Attributes
+- **Measurement Tool**: A vernier caliper with a resolution of **0.01mm** was used to measure crack width and depth.  
+- **Crack Type Annotation**: Crack types (**transverse, longitudinal, alligator, and block cracks**) were manually labeled based on visual inspection.  
+- **Measurement Variability**: Due to different crack characteristics, some width measurements represent average values.  
+- **Weather Conditions**: Data was collected during **light rain**, and the point cloud may include water accumulation in cracks.  
+- **Measurement Consistency**: All measurements were conducted by the **same team** to ensure consistency.  
+
+| Crack ID  | 
+|-----------|
+| sysu014   |
+| sysu015   |
+| sysu016   |
+| sysu017   |
+| sysu018   |
+| sysu019   |
+| sysu020   |
+| sysu021   |
+| sysu022   |
+| sysu023   |
+| sysu024   |
+| sysu025   |
+| sysu026   |
+| sysu027   |
+
+## Download Link  
+in release-tags
